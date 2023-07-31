@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/* ul{
+    display: flex;
+    background:gray;
+    margin: 0px;
+}
+li{
+    margin: 10px;
+    list-style: none;
+    color: white;
+} */
+/* .container{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+} */
+
+/* ---vedio 45 */
+
+.red{
+    background-color: red;
+    color: white;
+}
+.yellow{
+    background-color: yellow;
+    color: white;
+}
+.black{
+    background-color: black;
+    color:white ;
+}
+
+.text-dark{
+    color: balck;
+}

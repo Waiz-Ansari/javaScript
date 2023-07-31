@@ -1,0 +1,58 @@
+<!-- ===========for smtp============== -->
+
+<!-- ===========for smtp============== -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+<!-- ===========for smtp============== -->
+
+
+
+
+
+
+<form></form>
+
+
+
+<script src=
+   "https://smtpjs.com/v3/smtp.js">
+  </script>
+
+<script>  
+  var name = $("#name");
+  var email = $("#email");
+  var subject = $("#subject");
+  var message = $("#message");
+
+  var body = "name : " + name + "email : " + email + "subject : " + subject + "message : " + message;
+  </script> 
+<!-- type="text/javascript" -->
+ <script type="text/javascript">
+   function sendEmail(body) {
+     Email.send({
+       Host: "smtpout.secureserver.net",
+      //  Username: "info@technoronix.com",
+      //  Password: "design794ld-",
+      //  To: 'info@technoronix.com',
+      //  From: "info@technoronix.com",
+      //  Subject: "Thanks you to contact", 
+       Body: "" +name +email +subject +message,
+     })
+       .then(function (message) {
+         alert("Thanks You For Contact Us")
+       })
+   
+   }
+ </script>
+
+
+
+ </body>
+ </html>
